@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Casa OP",
+        "short": "OP",
+        "thumbnail": "img/proyectos/op/thumbnail.webp",
+        "images": [],
+        "description": [
+            "El proyecto parte de la restructuración y remodelación de una casa de la época de los 30´s en la colonia Nueva Santa María, rodeada de gran equipamiento urbano. El cliente, una pareja joven con residencia en París, busca tener su casa de descanso en la Ciudad de México, como punto de encuentro con sus familiares y amigos.",
+            "Se mantuvo la esencia colonial de la casa existente, con la curvatura en su fachada, la convergencia con el patio delantero y trasero hacia los espacios interiores, y los elementos tradicionales como los ventanales, la herrería y los materiales crudos como el recinto y el terrazo",
+            "Se da un cambio en la espacialidad interior, generando áreas muy amplias como la biblioteca (la cual antes era el garage), estancia, comedor y cocina.",
+            "La residencia de dos niveles cuenta con recámara principal, una secundaria con litera y dos de visitas, tres baños completos, estudio, sala de TV y terraza.",
+            "La elección de acabados, diseño de carpinterías y mobiliario, se centró en brindar calidez en áreas de convivencia, con piso de madera de ingeniería, chapas de encino natural, sillas de teca y bejuco, telas tipo terciopelo y muros en blanco para mantener la amplitud y luminosidad de los espacios.",
+            "Las escaleras son iluminadas de forma cenital por medio de un domo circular, resaltando la textura del terrazo gris y la curvatura en su desarrollo.",
+            "Para el diseño de paisaje se eligieron macetas de barro natural, vegetación endémica y se diseñaron gárgolas con cadenas en negro para las bajadas de agua pluvial.",
+            "En el diseño de iluminación, se cuidó acentuar los elementos de cada espacio con modelos modernos pero que se integran con la arquitectura. Se tienen luminarias decorativas y de diseño en la estancia, cocina y biblioteca que brindan versatilidad a los espacios.",
+            "El área de la cocina y comedor fue el resultado de una perfecta sintonía entre materiales pétreos en barra, tarja y piso, la dureza de la herrería en la campana y el cancel corredizo, la calidez de la madera en las puertas de guardado, estantería, mesa y sillas, el diseño vintage del refrigerador, y el diseño moderno de la parrilla eléctrica, el horno, la cava de vinos fría y el riel magnético de iluminación.",
+            "Los elementos en la fachada mantienen la simplicidad de las formas d el diseño general de la casa, integrándose sutilmente a su entorno, y respetando desde el inicio el árbol central en la banqueta."
+        ],
+        "info": [
+            "Arquitectos a cargo",
+            "Arq. José Larroa-Fink / Arq. Ana Karen Rodríguez",
+            "Equipo de diseño",
+            "Arq. Joaquín Martínez / Arq. Perla Gachuz",
+            "Arq. Jaqueline Muñoz / Arq. Edrey González",
+            "Equipo Construcción",
+            "BxH_Construimos Interiores"
+        ]
+    },
+    {
+        "title": "Casa OL",
+        "short": "CO",
+        "thumbnail": "img/proyectos/hfc/thumbnail.webp",
+        "images": [],
+        "description": [
+            "El proyecto parte de la restructuración y remodelación de una casa de la época de los 30´s en la colonia Nueva Santa María, rodeada de gran equipamiento urbano. El cliente, una pareja joven con residencia en París, busca tener su casa de descanso en la Ciudad de México, como punto de encuentro con sus familiares y amigos.",
+            "Se mantuvo la esencia colonial de la casa existente, con la curvatura en su fachada, la convergencia con el patio delantero y trasero hacia los espacios interiores, y los elementos tradicionales como los ventanales, la herrería y los materiales crudos como el recinto y el terrazo",
+            "Se da un cambio en la espacialidad interior, generando áreas muy amplias como la biblioteca (la cual antes era el garage), estancia, comedor y cocina.",
+            "La residencia de dos niveles cuenta con recámara principal, una secundaria con litera y dos de visitas, tres baños completos, estudio, sala de TV y terraza.",
+            "La elección de acabados, diseño de carpinterías y mobiliario, se centró en brindar calidez en áreas de convivencia, con piso de madera de ingeniería, chapas de encino natural, sillas de teca y bejuco, telas tipo terciopelo y muros en blanco para mantener la amplitud y luminosidad de los espacios.",
+            "Las escaleras son iluminadas de forma cenital por medio de un domo circular, resaltando la textura del terrazo gris y la curvatura en su desarrollo.",
+            "Para el diseño de paisaje se eligieron macetas de barro natural, vegetación endémica y se diseñaron gárgolas con cadenas en negro para las bajadas de agua pluvial.",
+            "En el diseño de iluminación, se cuidó acentuar los elementos de cada espacio con modelos modernos pero que se integran con la arquitectura. Se tienen luminarias decorativas y de diseño en la estancia, cocina y biblioteca que brindan versatilidad a los espacios.",
+            "El área de la cocina y comedor fue el resultado de una perfecta sintonía entre materiales pétreos en barra, tarja y piso, la dureza de la herrería en la campana y el cancel corredizo, la calidez de la madera en las puertas de guardado, estantería, mesa y sillas, el diseño vintage del refrigerador, y el diseño moderno de la parrilla eléctrica, el horno, la cava de vinos fría y el riel magnético de iluminación.",
+            "Los elementos en la fachada mantienen la simplicidad de las formas d el diseño general de la casa, integrándose sutilmente a su entorno, y respetando desde el inicio el árbol central en la banqueta."
+        ],
+        "info": [
+            "Arquitectos a cargo",
+            "Arq. José Larroa-Fink / Arq. Ana Karen Rodríguez",
+            "Equipo de diseño",
+            "Arq. Joaquín Martínez / Arq. Perla Gachuz",
+            "Arq. Jaqueline Muñoz / Arq. Edrey González",
+            "Equipo Construcción",
+            "BxH_Construimos Interiores"
+        ]
+    },
+    {
+        "title": "Hacienda FC",
+        "short": "HFC",
+        "thumbnail": "img/proyectos/hfc/thumbnail.webp",
+        "images": [
+            "img/proyectos/hfc/12-aerea.webp",
+            "img/proyectos/hfc/14-despacho.webp",
+            "img/proyectos/hfc/15-despacho.webp",
+            "img/proyectos/hfc/8-picadero.webp",
+            "img/proyectos/hfc/10-acceso.webp",
+            "img/proyectos/hfc/13-aerea.webp"
+        ],
+        "description": [
+            "Metida entre los cerros mas representativos de la llegada a San Miguel de Allende, Los Tres Picachos, la hacienda es un proyecto clave en el crecimiento de Larroa-Fink y su equipo de talento en arquitectura, diseño de paisaje e investigación.",
+            "La Hacienda se compromete a ser una hacienda moderna que respeta los materiales y los sistemas constructivos de esta zona. Así como a la flora y la fauna original de Guanajuato.",
+            "La hacienda se compromete a ser un vestigio a futuro de una hacienda equina que integrará la arquitectura, el diseño y la vegetación a un proyecto ambicioso para mas de 100 caballos en sitio. Los materiales simples y cuidados serán un lenguaje común parta estos espacios. La belleza estará en la simplicidad de sus trazos y líneas, de sus materiales y la vegetación que crecerá y envejecerá junto a ellos.",
+            "Un lienzo para presentar caballos será el representante mas grande del diseño en este lugar, seguido por piscina para equinoterapia y asoleaderos de yeguas. Dando paso a 4 módulos de caballerizas las cuales se desarrollan en un desplante en dos niveles.",
+            "En su núcleo y pasillo central a una escala para caballos, se observan las ofcinas y el cuarto de trofeos de estos exponentes equinos con un acabado y tectónica realizada en tierra compactada. Atrás y en un área mucho mas privada, se alberga la nueva hacienda que tendrá cuartos de invitados y un área de convivencia para ver desde el punto mas alto esta nueva materialidad de Hacienda en San Miguel de Allende."
+        ],
+        "info": [
+            "Arquitectos a cargo",
+            " Arq. José Larroa-Fink",
+            "Equipo de diseño",
+            "Arq. Ana Karen Rodríguez / Arq. Perla Gachuz"
+        ]
+    }
+]
