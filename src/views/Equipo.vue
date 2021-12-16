@@ -5,42 +5,67 @@
     <div class="row">
       <div class="col-6"></div>
       <div class="col-6">
-        <Flicking ref="flicking" :options="{ circular: true, align: 'prev', }" class="vh-30 animate__animated animate__fast animate__fadeInRight" style="margin-top: 18vw">
+        <Flicking
+          ref="flicking"
+          :options="{ circular: true, align: 'prev' }"
+          class="vh-30 animate__animated animate__fast animate__fadeInRight"
+          style="margin-top: 18vw"
+        >
           <div style="width: 33%">
-           <div class="card">
-              <img src="../assets/img/fotos/equipo.jpg" alt="" class="img-fluid">
+            <div class="card">
+              <img
+                src="../assets/img/fotos/equipo.jpg"
+                alt=""
+                class="img-fluid"
+              />
               <h1>Ceo &</h1>
               <p>Fundador /</p>
               <p>Arquitecto / José Larroa /</p>
             </div>
           </div>
           <div style="width: 33%">
-           <div class="card">
-              <img src="../assets/img/fotos/equipo.jpg" alt="" class="img-fluid">
+            <div class="card">
+              <img
+                src="../assets/img/fotos/equipo.jpg"
+                alt=""
+                class="img-fluid"
+              />
               <h1>arq Jr</h1>
               <p>Arquitecto Jr. /</p>
               <p>Arquitecto / Gerardo Goméz /</p>
             </div>
           </div>
           <div style="width: 33%">
-           <div class="card">
-              <img src="../assets/img/fotos/equipo.jpg" alt="" class="img-fluid">
+            <div class="card">
+              <img
+                src="../assets/img/fotos/equipo.jpg"
+                alt=""
+                class="img-fluid"
+              />
               <h1>arq Jr</h1>
               <p>Arquitecto Jr. /</p>
               <p>Arquitecto / Ana Rodriguez /</p>
             </div>
           </div>
           <div style="width: 33%">
-           <div class="card">
-              <img src="../assets/img/fotos/equipo.jpg" alt="" class="img-fluid">
+            <div class="card">
+              <img
+                src="../assets/img/fotos/equipo.jpg"
+                alt=""
+                class="img-fluid"
+              />
               <h1>arq Jr</h1>
               <p>Arquitecto Jr. /</p>
               <p>Arquitecto / Gerardo Goméz /</p>
             </div>
           </div>
           <div style="width: 33%">
-           <div class="card">
-              <img src="../assets/img/fotos/equipo.jpg" alt="" class="img-fluid">
+            <div class="card">
+              <img
+                src="../assets/img/fotos/equipo.jpg"
+                alt=""
+                class="img-fluid"
+              />
               <h1>arq Jr</h1>
               <p>Arquitecto Jr. /</p>
               <p>Arquitecto / Ana Rodriguez /</p>
@@ -62,7 +87,7 @@ export default defineComponent({
   name: "Home",
   components: {
     Menu,
-    Flicking
+    Flicking,
   },
 
   setup() {
@@ -86,6 +111,10 @@ export default defineComponent({
 </script>
 
 <style scoped>
+* {
+    overflow: hidden !important;
+  }
+
 p {
   font-family: "Neue Machina Light" !important;
   font-size: 13px;

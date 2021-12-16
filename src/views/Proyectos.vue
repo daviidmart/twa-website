@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid" style="padding: 0">
+  <div class="container-fluid" style="padding: 0; height: 100vh !important; overflow: hidden !important;">
     <Menu
       :page="this.$route.params.categoria.toUpperCase()"
       style="color: black !important"
@@ -7,14 +7,21 @@
     <Flicking
       ref="flicking"
       :options="{ circular: true }"
-      class="vh-100 animate__animated animate__fast animate__fadeInDown"
+      class="vh-100 animate__animated animate__fast animate__fadeIn"
     >
       <div
-        style="width: 100%; position: relative"
+        style="width: 100%; position: relative; height: 100vh"
         v-for="d in data"
         :key="d.title"
       >
-        <router-link :to="'/proyectos/'+this.$route.params.categoria+'/'+d.short.toLowerCase()">
+        <router-link
+          :to="
+            '/proyectos/' +
+            this.$route.params.categoria +
+            '/' +
+            d.short.toLowerCase()
+          "
+        >
           <div
             class="img"
             :style="{
@@ -31,8 +38,14 @@
       </div>
     </Flicking>
   </div>
-  <img class="logo-tw" :src="require('@/assets/img/logo-tw.webp')" />
-  <img class="logo-a" :src="require('@/assets/img/logo-a.webp')" />
+  <img
+    class="logo-tw animate__animated animate__fadeIn"
+    :src="require('@/assets/img/logo-tw.webp')"
+  />
+  <img
+    class="logo-a animate__animated animate__fadeIn"
+    :src="require('@/assets/img/logo-a.webp')"
+  />
   <div class="rigth" v-on:click="siguiente">&gt;</div>
   <div class="left" v-on:click="anterior">&lt;</div>
 </template>

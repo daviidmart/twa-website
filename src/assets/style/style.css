@@ -1,6 +1,6 @@
 body {
   background-color: #f4f3ef !important;
-  overflow: hidden;
+  height: 100vh;
 }
 
 .logo {

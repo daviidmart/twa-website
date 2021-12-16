@@ -12,7 +12,7 @@
           <router-link to="/">COMERCIO</router-link>
         </p>
         <p>
-          <router-link to="/proyectos/vivienda vertical"
+          <router-link to="/"
             >VIVIENDA VERTICAL</router-link
           >
           /

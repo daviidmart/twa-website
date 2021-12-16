@@ -4,31 +4,32 @@
       :page="'PROYECTOS /   ' + this.$route.params.categoria.toUpperCase()"
       style="color: white !important"
     />
-    <Flicking
-      ref="flicking"
-      :options="{ circular: true }"
-      style="height: 60vh"
-      class="animate__animated animate__fast animate__fadeInDown"
-    >
-      <div style="width: 100%" v-for="d in data.images" :key="d">
+
+    <carousel :items-to-show="1" :wrap-around="true">
+      <slide v-for="d in data.images" :key="d">
         <div
           class="img"
           :style="{
             backgroundImage: 'url(' + require('@/assets/' + d) + ')',
           }"
         ></div>
-      </div>
-    </Flicking>
+      </slide>
+
+      <template #addons>
+        <navigation />
+      </template>
+    </carousel>
 
     <div class="rigth" v-on:click="siguiente">&gt;</div>
     <div class="left" v-on:click="anterior">&lt;</div>
 
-    <div class="d-flex">
+    <div class="d-flex animate__animated animate__fadeIn animate__delay-1s">
       <div class="d-flex w-100 justify-content-center align-self-center">
         <div class="card" style="width: 40rem">
           <br /><br />
           <h1 style="margin-bottom: 4rem; position: relative">
-            proyecto<div class="subtext">{{ data.short }}</div>
+            proyecto
+            <div class="subtext">{{ data.short }}</div>
           </h1>
           <p class="subtitle" style="margin: 0">Proyecto / {{ data.short }}</p>
           <p class="subtitle">{{ data.title }}</p>
@@ -53,23 +54,20 @@ import residencial from "../data/residencial.json";
 import { defineComponent, computed, reactive } from "vue";
 import { useHead } from "@vueuse/head";
 import Menu from "@/components/Menu.vue";
-import Flicking from "@egjs/vue3-flicking";
+
+import "vue3-carousel/dist/carousel.css";
+import { Carousel, Slide, Navigation } from "vue3-carousel";
 
 export default defineComponent({
   name: "Home",
   components: {
     Menu,
-    Flicking,
+    Carousel,
+    Slide,
+    Navigation,
   },
 
-  methods: {
-    siguiente: function () {
-      this.$refs.flicking.next();
-    },
-    anterior: function () {
-      this.$refs.flicking.prev();
-    },
-  },
+  methods: {},
 
   data() {
     return {
@@ -128,12 +126,25 @@ export default defineComponent({
   },
 });
 </script>
+
 <style>
-body {
-  overflow: auto !important;
+.carousel__prev {
+  width: 10vw !important;
+  height: 100% !important;
+  z-index: 9999 !important;
+  opacity: 0 !important;
+}
+
+.carousel__next {
+  width: 10vw !important;
+  height: 100% !important;
+  z-index: 9999 !important;
+  opacity: 0 !important;
 }
 </style>
+
 <style scoped>
+
 h1 {
   font-family: "Argesta Hairline RegularItalic" !important;
   letter-spacing: -5px;
@@ -153,12 +164,9 @@ p {
 .subtext {
   font-family: "Neue Machina UltraLight";
   font-size: 1.5rem;
-  position: absolute;
-  margin: auto;
-  bottom: -1rem;
-  right: -6rem;
-  left: 0;
   letter-spacing: 0;
+  line-height: 7px;
+  margin-right: 15.5rem;
   text-align: end;
 }
 
@@ -177,7 +185,7 @@ p {
 
 .img {
   width: 100%;
-  height: 100%;
+  height: 60vh !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
